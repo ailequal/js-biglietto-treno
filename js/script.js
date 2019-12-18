@@ -10,7 +10,7 @@ if (isNaN(travelKm)) {
     throw new Error("User didn't set an ordinary numeric value.");
   }
 }
-console.log("travelKm set to " + travelKm);
+console.log("travelKm set to: " + travelKm);
 
 // how old are you?
 var travelAge = parseInt(prompt("How old are you?"));
@@ -21,7 +21,7 @@ if (isNaN(travelAge)) {
     throw new Error("User didn't set an ordinary numeric value.");
   }
 }
-console.log("travelAge set to " + travelAge);
+console.log("travelAge set to: " + travelAge);
 
 // ticket pricing 0.21 euros per km
 // < 18y 20% discount
@@ -43,3 +43,5 @@ if (travelAge < 18) {
   alert("The final ticket price is: " + travelPrice + " Euros.");
 }
 console.log("travelPrice set to: " + travelPrice);
+
+alert("I wonder... Will your train be there in time? Who knows...");
